@@ -1,3 +1,7 @@
 # Augumentacja danych dla modeli głębokich
 
+The project “Image Data Augmentation for Deep Learning Models” includes the implementation and comparison of several popular techniques for expanding training datasets. The evaluated methods include classical transformations, Mixup, CutMix, and Cutout, applied to a convolutional neural network (SimpleCNN) trained on the CIFAR-10 dataset.
+The repository contains the corresponding scripts (model_bazowy.py, model_aug_classic.py, model_mixup.py, model_cutmix.py, model_cutout.py) as well as a collection of experimental results, including training curves and accuracy comparisons.
+The goal of the project is to analyze how different augmentation strategies influence model generalization quality and to draw conclusions about the effectiveness of each method.
+
 Projekt „Augmentacja danych obrazowych dla modeli głębokich” zawiera implementację i porównanie kilku popularnych technik zwiększania zbioru treningowego (klasyczne transformacje, Mixup, CutMix, Cutout) na bazie konwolucyjnej sieci neuronowej (SimpleCNN) trenowanej na zestawie CIFAR-10. W repozytorium znajdują się skrypty (model_bazowy.py, model_aug_classic.py, model_mixup.py, model_cutmix.py, model_cutout.py) oraz zestaw wyników eksperymentów, w tym wykresy przebiegu treningu i porównanie dokładności. Celem projektu jest analiza wpływu poszczególnych metod augmentacji na jakość uogólniania modeli oraz wyciągnięcie wniosków dotyczących ich skuteczności
